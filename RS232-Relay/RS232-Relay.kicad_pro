@@ -468,7 +468,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "RS232-Relay.step",
       "svg": "",
       "vrml": ""
     },
