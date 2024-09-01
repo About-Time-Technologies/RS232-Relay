@@ -1657,16 +1657,16 @@
 	)
 	(symbol
 		(lib_id "Isolator:LTV-847S")
-		(at 130.81 142.24 0)
+		(at 130.81 102.87 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8ddcdf10-6e34-49a8-9bab-594d3e38048e")
+		(uuid "6977e6c1-6ccb-4a03-bc39-a257a8e2499a")
 		(property "Reference" "U2"
-			(at 130.81 133.35 0)
+			(at 130.81 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1674,7 +1674,7 @@
 			)
 		)
 		(property "Value" "LTV-847S"
-			(at 130.81 135.89 0)
+			(at 130.81 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1682,7 +1682,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:SMDIP-16_W9.53mm"
-			(at 130.81 149.86 0)
+			(at 130.81 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1691,7 +1691,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 115.57 130.81 0)
+			(at 115.57 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1700,7 +1700,7 @@
 			)
 		)
 		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-16"
-			(at 130.81 142.24 0)
+			(at 130.81 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1718,7 +1718,7 @@
 			(uuid "75fc5452-4aa3-4632-92f0-637fb0f86327")
 		)
 		(pin "6"
-			(uuid "276e98ca-a91f-402a-ad86-def484aef2d8")
+			(uuid "c0845397-7ffc-4637-9fea-fe0279c38412")
 		)
 		(pin "8"
 			(uuid "051a4d98-a568-46c9-b85f-f153e18549bf")
@@ -1727,7 +1727,7 @@
 			(uuid "716192e2-bfff-4cdb-9861-b48944ae2c15")
 		)
 		(pin "12"
-			(uuid "1c851d45-bfd7-431b-9ee0-314073b1125f")
+			(uuid "a3657e04-2e37-466e-a479-41d46b94375d")
 		)
 		(pin "1"
 			(uuid "2fae33f6-4da5-478a-a35e-23e403d6024d")
@@ -1742,7 +1742,7 @@
 			(uuid "eae5466a-2bac-44df-a2e0-03459fed58ee")
 		)
 		(pin "11"
-			(uuid "64b79dee-4384-4c52-ad6f-e999d40f8246")
+			(uuid "1b2a8a26-32c2-4ef0-8296-6de670aa5061")
 		)
 		(pin "2"
 			(uuid "908f51d2-72f1-47e4-addb-369932cc0ccc")
@@ -1754,7 +1754,7 @@
 			(uuid "9c82c127-d293-4e5f-9c29-68aa71a98a55")
 		)
 		(pin "5"
-			(uuid "2e710237-f7e5-4f12-ab62-0761c9a2df4c")
+			(uuid "f7d1efc2-a27a-4090-a8a5-f050920e2dd7")
 		)
 		(instances
 			(project "RS232-Relay"
@@ -1997,124 +1997,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Isolator:LTV-847S")
-		(at 130.81 102.87 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b08a186c-9aed-405a-8fc6-d753308fb001")
-		(property "Reference" "U2"
-			(at 130.81 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTV-847S"
-			(at 130.81 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:SMDIP-16_W9.53mm"
-			(at 130.81 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 115.57 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-16"
-			(at 130.81 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "85dc9be6-b8a6-4141-bd4a-b36d53e6555f")
-		)
-		(pin "4"
-			(uuid "50c4e75f-15c8-4d5a-95c0-2502393b6fb6")
-		)
-		(pin "7"
-			(uuid "75fc5452-4aa3-4632-92f0-637fb0f86326")
-		)
-		(pin "6"
-			(uuid "cf7622ea-b79c-46ee-a684-a055ec4b997f")
-		)
-		(pin "8"
-			(uuid "051a4d98-a568-46c9-b85f-f153e18549be")
-		)
-		(pin "16"
-			(uuid "716192e2-bfff-4cdb-9861-b48944ae2c14")
-		)
-		(pin "12"
-			(uuid "98bfecf3-7165-469d-a08a-324b4502c337")
-		)
-		(pin "1"
-			(uuid "2fae33f6-4da5-478a-a35e-23e403d6024c")
-		)
-		(pin "15"
-			(uuid "4fc9b8bb-2319-4e1b-b9c9-989389f0a235")
-		)
-		(pin "14"
-			(uuid "3efc2c44-0da4-47dc-a510-70c592c4dc1e")
-		)
-		(pin "3"
-			(uuid "edcdc848-ea2c-4882-ba40-ae6b557f0b09")
-		)
-		(pin "11"
-			(uuid "dff1afbf-97d4-4177-86d7-8fdcc567fe77")
-		)
-		(pin "2"
-			(uuid "908f51d2-72f1-47e4-addb-369932cc0ccb")
-		)
-		(pin "9"
-			(uuid "9e280882-eccf-4740-92f0-173ef18b4790")
-		)
-		(pin "13"
-			(uuid "b47b87a0-6732-4709-b704-81b2b1026f51")
-		)
-		(pin "5"
-			(uuid "b23aea85-fa81-4ca8-9c80-f630217ef522")
-		)
-		(instances
-			(project "RS232-Relay"
-				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f/6243990a-47f3-4383-9005-5094cba86ad2"
-					(reference "U2")
-					(unit 2)
-				)
-				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f/4cc60208-aa63-44fd-9447-92e9d40fbb60"
-					(reference "U5")
-					(unit 2)
-				)
-				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f/f5401bb4-9575-46b7-b322-a153ebcf6229"
-					(reference "U6")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 144.78 248.92 0)
 		(unit 1)
@@ -2302,6 +2184,124 @@
 				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f/f5401bb4-9575-46b7-b322-a153ebcf6229"
 					(reference "U6")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:LTV-847S")
+		(at 130.81 142.24 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f226c10a-4640-455a-881f-10bc7fc0ca14")
+		(property "Reference" "U2"
+			(at 130.81 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTV-847S"
+			(at 130.81 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:SMDIP-16_W9.53mm"
+			(at 130.81 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
+			(at 115.57 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-16"
+			(at 130.81 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "85dc9be6-b8a6-4141-bd4a-b36d53e6555f")
+		)
+		(pin "4"
+			(uuid "5031a460-cd03-426d-8a54-78ca78aa9de1")
+		)
+		(pin "7"
+			(uuid "75fc5452-4aa3-4632-92f0-637fb0f86326")
+		)
+		(pin "6"
+			(uuid "cf7622ea-b79c-46ee-a684-a055ec4b997f")
+		)
+		(pin "8"
+			(uuid "051a4d98-a568-46c9-b85f-f153e18549be")
+		)
+		(pin "16"
+			(uuid "716192e2-bfff-4cdb-9861-b48944ae2c14")
+		)
+		(pin "12"
+			(uuid "98bfecf3-7165-469d-a08a-324b4502c337")
+		)
+		(pin "1"
+			(uuid "2fae33f6-4da5-478a-a35e-23e403d6024c")
+		)
+		(pin "15"
+			(uuid "4fc9b8bb-2319-4e1b-b9c9-989389f0a235")
+		)
+		(pin "14"
+			(uuid "b675e6b7-258a-4fda-98dd-de4ebdd3bb1e")
+		)
+		(pin "3"
+			(uuid "ed8c65a0-a406-4284-993d-98692a8575ef")
+		)
+		(pin "11"
+			(uuid "dff1afbf-97d4-4177-86d7-8fdcc567fe77")
+		)
+		(pin "2"
+			(uuid "908f51d2-72f1-47e4-addb-369932cc0ccb")
+		)
+		(pin "9"
+			(uuid "9e280882-eccf-4740-92f0-173ef18b4790")
+		)
+		(pin "13"
+			(uuid "92b3318f-1936-4254-b577-14a8c749d015")
+		)
+		(pin "5"
+			(uuid "b23aea85-fa81-4ca8-9c80-f630217ef522")
+		)
+		(instances
+			(project "RS232-Relay"
+				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f/6243990a-47f3-4383-9005-5094cba86ad2"
+					(reference "U2")
+					(unit 2)
+				)
+				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f/4cc60208-aa63-44fd-9447-92e9d40fbb60"
+					(reference "U5")
+					(unit 2)
+				)
+				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f/f5401bb4-9575-46b7-b322-a153ebcf6229"
+					(reference "U6")
+					(unit 2)
 				)
 			)
 		)
