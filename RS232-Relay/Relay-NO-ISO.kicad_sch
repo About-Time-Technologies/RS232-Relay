@@ -1383,22 +1383,10 @@
 		)
 	)
 	(junction
-		(at 161.29 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1302ed03-d950-4f83-939f-0388f2b592ba")
-	)
-	(junction
 		(at 139.7 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25a6a8f6-e238-4ef5-8cca-5b5dae1fa39d")
-	)
-	(junction
-		(at 139.7 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b31a31b-a7d6-4d36-816c-e90ae77aac9e")
 	)
 	(junction
 		(at 139.7 87.63)
@@ -1492,16 +1480,6 @@
 		)
 		(uuid "38adf639-8eb0-46cc-b0da-495ccff48a19")
 	)
-	(wire
-		(pts
-			(xy 173.99 60.96) (xy 191.77 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3988d934-5584-4c78-8e15-4dfb29230c8e")
-	)
 	(polyline
 		(pts
 			(xy 102.87 46.99) (xy 102.87 123.19)
@@ -1511,16 +1489,6 @@
 			(type dash_dot_dot)
 		)
 		(uuid "40c886fd-938c-4f1f-a87f-af4750ef30da")
-	)
-	(wire
-		(pts
-			(xy 139.7 110.49) (xy 139.7 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "485b0cf1-3db2-4d5c-9cef-60fdbcb005cb")
 	)
 	(wire
 		(pts
@@ -1544,16 +1512,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 110.49) (xy 139.7 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5849756f-36a8-4204-ada8-d5c1b249532e")
-	)
-	(wire
-		(pts
 			(xy 139.7 87.63) (xy 161.29 87.63)
 		)
 		(stroke
@@ -1564,7 +1522,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 67.31) (xy 173.99 60.96)
+			(xy 173.99 57.15) (xy 173.99 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1644,27 +1602,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 60.96) (xy 161.29 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae1b4277-17bf-4fbe-956d-8806efdd724c")
-	)
-	(wire
-		(pts
-			(xy 191.77 60.96) (xy 191.77 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae7bcd2b-39fb-4942-b8de-dd08015c4d64")
-	)
-	(wire
-		(pts
-			(xy 168.91 67.31) (xy 168.91 60.96)
+			(xy 168.91 57.15) (xy 168.91 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1694,7 +1632,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 105.41) (xy 139.7 110.49)
+			(xy 139.7 105.41) (xy 139.7 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1808,6 +1746,19 @@
 		)
 		(uuid "9cb4ba5a-965c-4b62-bfc3-58d58f05f1a8")
 	)
+	(text "22.5mA \nCurrent when relay active"
+		(exclude_from_sim no)
+		(at 154.178 94.488 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "c771b767-b0f4-425e-b617-d4dbbcca2a23")
+	)
 	(text "3v3 input\nfrom IO Expander\n(PCF8575DBR)"
 		(exclude_from_sim no)
 		(at 91.44 49.53 0)
@@ -1833,6 +1784,50 @@
 			)
 		)
 		(uuid "fc080625-9bc7-43f6-aae6-2802e309d0e2")
+	)
+	(global_label "RELAY_ON"
+		(shape input)
+		(at 173.99 57.15 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c07cf6d-4c23-4b36-9f16-03f07e03a01e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.99 44.9119 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RELAY_OFF"
+		(shape input)
+		(at 168.91 57.15 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c0da6dc-1fd0-496e-834a-fc826ef6d56e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.91 44.0652 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "OPTO_LEFT_IN"
 		(shape input)
