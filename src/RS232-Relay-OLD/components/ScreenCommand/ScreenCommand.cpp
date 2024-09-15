@@ -1,21 +1,21 @@
-#include "include/ScreenCommand.hpp"
+#include "ScreenCommand.hpp"
 
 ScreenCommand::ScreenCommand() {};
 ScreenCommand::~ScreenCommand() {};
 
-bool ScreenCommand::parseCommand(uint8_t *_commandData, size_t _length) {
+bool ScreenCommand::parseCommand(char *_commandData, size_t _length) {
     if (_length != 6) {
         return false;
         // Incorrect length of data
     }
 
     // Check end of string
-    if (_commandData[4] != '\\' || _commandData[5] != 'r') { 
+    if (_commandData[4] != "\\" || _commandData[5] != "r") { 
         return false;
         // Termination incorrect
     }
 
-    if (_commandData[2] != '=' && _commandData[2] != '=') {
+    if (_commandData[2] != "=" && _commandData[2] != "=") {
         return false;
         // Instruction/response bytes invalid
     }
@@ -24,15 +24,15 @@ bool ScreenCommand::parseCommand(uint8_t *_commandData, size_t _length) {
 
     switch (_commandData[3])
     {
-    case '+':
+    case "+":
         command = Command::DOWN;
         break;
 
-    case '-':
+    case "-":
         command = Command::UP;
         break;
 
-    case '?':
+    case "?":
         command = Command::QUERY;
         break;
     
@@ -42,51 +42,49 @@ bool ScreenCommand::parseCommand(uint8_t *_commandData, size_t _length) {
         break;
     }
 
-    // FIgure out the ID mapping into an int#
-
-    return true;
+    // FIgure out the ID mapping into an int
 }
 
-bool ScreenCommand::toString(uint8_t *_commandString, size_t _maxLength, bool _isResponse) {
+bool ScreenCommand::toString(char *_commandString, size_t _maxLength, bool _isResponse) {
     if (_maxLength < 6) {
         return false;
         // We need at least 8 characters of space in the command string in order to send the command
     }
 
     if (id < 10) {
-        _commandString[0] = '0';
+        _commandString[0] = "0";
         _commandString[1] = id;
     } else {
-        _commandString[0] = '1';
+        _commandString[0] = "1";
         _commandString[1] = id - 10;
     }
 
     if (_isResponse) {
-        _commandString[2] = '=';
+        _commandString[2] = "=";
     } else {
-        _commandString[2] = ':';
+        _commandString[2] = ":";
     }
     
     switch (command)
     {
     case Command::DOWN:
-        _commandString[3] = '+';
+        _commandString[3] = "+";
         break;
 
     case Command::UP:
-        _commandString[3] = '-';
+        _commandString[3] = "-";
         break;
 
     case Command::QUERY:
-        _commandString[3] = '?';
+        _commandString[3] = "?";
         break;
     
     default:
         break;
     }
 
-    _commandString[4] = '\\';
-    _commandString[5] = 'r';
+    _commandString[4] = "\\";
+    _commandString[5] = "r";
 
     return true;
 }

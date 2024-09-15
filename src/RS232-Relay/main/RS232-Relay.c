@@ -15,7 +15,6 @@
 #include "esp_log.h"
 #include "driver/gpio.h"
 
-
 #include "ScreenCommand.hpp"
 
 static const char *TAG = "RS232-Relay";
@@ -48,21 +47,21 @@ void screenQuery(const uint8_t screenIndex) {
 void processDataBuffer(const uint8_t rxBytes) {
     // Validate command
     ScreenCommand screenCommand;
-    if (screenCommand.parse(rxData, rxBytes)) {
+    if (screenCommand.parseCommand(rxData, rxBytes)) {
         // We have a valid command stored in screenCommand
 
         // Action based on that command
         switch (screenCommand.command)
         {
-        case ScreenCommand.Command::DOWN:
+        case ScreenCommand::Command::DOWN:
             screenDown(screenCommand.id);
             break;
 
-        case ScreenCommand.Command::UP:
+        case ScreenCommand::Command::UP:
             screenUp(screenCommand.id);
             break;
 
-        case ScreenCommand.Command::QUERY:
+        case ScreenCommand::Command::QUERY:
             screenQuery(screenCommand.id);
             break;
         
