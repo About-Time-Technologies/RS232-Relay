@@ -1,9 +1,0 @@
-{
-    "idf.portWin": "COM3",
-    "idf.flashType": "UART",
-    "idf.adapterTargetName": "esp32c6",
-    "idf.openOcdConfigs": [
-        "board/esp32c6-builtin.cfg"
-    ],
-    "idf.espIdfPath": "C:\\Espressif\\frameworks\\esp-idf-v5.2.1",
-}

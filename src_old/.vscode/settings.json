@@ -12,5 +12,9 @@
         "board/esp32-wrover-kit-3.3v.cfg"
     ],
     "idf.pythonBinPathWin": "C:/Espressif/python_env/idf5.2_py3.11_env/Scripts/python.exe",
-    "idf.toolsPathWin": "C:\\Espressif"
+    "idf.toolsPathWin": "C:\\Espressif",
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "stdio.h": "c"
+    }
 }
