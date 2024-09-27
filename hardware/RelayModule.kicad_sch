@@ -318,529 +318,7 @@
 				)
 			)
 		)
-		(symbol "Isolator:LTV-847S"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LTV-847S"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_DIP:SMDIP-16_W9.53mm"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-				(at -15.24 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-16"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "NPN DC Optocoupler"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SMDIP*W9.53mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LTV-847S_0_1"
-				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -0.635) (xy -1.905 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0.635) (xy 4.445 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -2.54) (xy 2.54 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.905) (xy 2.54 -1.905) (xy 2.54 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -1.27) (xy -2.54 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -0.508) (xy 0.762 -0.508) (xy 0.381 -0.635) (xy 0.381 -0.381) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 0.508) (xy 0.762 0.508) (xy 0.381 0.381) (xy 0.381 0.635) (xy 0.762 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 -1.651) (xy 3.556 -1.143) (xy 4.064 -2.159) (xy 3.048 -1.651) (xy 3.048 -1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "LTV-847S_1_1"
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LTV-847S_2_1"
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LTV-847S_3_1"
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LTV-847S_4_1"
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:GND"
+		(symbol "power:GNDREF"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -857,7 +335,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "GND"
+			(property "Value" "GNDREF"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -883,7 +361,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -901,10 +379,46 @@
 					(hide yes)
 				)
 			)
-			(symbol "GND_0_1"
+			(symbol "GNDREF_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -915,7 +429,7 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
+			(symbol "GNDREF_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -938,582 +452,102 @@
 		)
 	)
 	(junction
-		(at 144.78 233.68)
+		(at 190.5 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "282d07e8-6b4e-4fe8-a730-9921c77cf6d2")
+		(uuid "0b73dbd5-611a-4cbe-a760-4bd526af1ebf")
 	)
 	(junction
-		(at 144.78 238.76)
+		(at 190.5 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bbfe95a1-192b-40b4-845f-057549987b8b")
+		(uuid "875c333e-589e-46dd-a671-ce297e88a61c")
 	)
 	(junction
-		(at 144.78 243.84)
+		(at 190.5 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e73ea172-f728-4cd4-bbbf-66ce18b71816")
+		(uuid "c76df9f4-203c-49c6-8b82-efef55b60361")
 	)
 	(wire
 		(pts
-			(xy 151.13 161.29) (xy 158.75 161.29)
+			(xy 213.36 74.93) (xy 190.5 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "02cb4230-ae2b-4df1-9695-5beaf520959d")
+		(uuid "18535d0b-4bf0-42fe-bbb4-b1a1751d6371")
 	)
 	(wire
 		(pts
-			(xy 104.14 64.77) (xy 123.19 64.77)
+			(xy 190.5 90.17) (xy 213.36 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0a8af99b-2c27-4a6f-8dc5-77ea2e236ccc")
+		(uuid "1f7e23f6-371e-4201-8ca1-e9b91793941b")
 	)
 	(wire
 		(pts
-			(xy 138.43 100.33) (xy 154.94 100.33)
+			(xy 190.5 74.93) (xy 190.5 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "103dae08-f080-430e-b948-b3e70cf071c5")
+		(uuid "4641d3ea-d73d-4c95-ad5d-9cfda0b9a5f6")
 	)
 	(wire
 		(pts
-			(xy 158.75 144.78) (xy 138.43 144.78)
+			(xy 190.5 80.01) (xy 190.5 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "172de969-9d19-46b5-aa32-bab58ca24b2e")
+		(uuid "46b6eeab-9513-48d9-a118-5bdc63ceb99a")
 	)
 	(wire
 		(pts
-			(xy 111.76 161.29) (xy 104.14 161.29)
+			(xy 213.36 80.01) (xy 190.5 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c604963-fd66-4200-9083-9ee91444440b")
+		(uuid "49470b9c-88ea-4514-851b-7d2cf1903f01")
 	)
 	(wire
 		(pts
-			(xy 138.43 179.07) (xy 154.94 179.07)
+			(xy 213.36 85.09) (xy 190.5 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1e580906-1ec1-4fdc-ae78-555f2fcb7f5a")
+		(uuid "4f4ca59e-213f-413f-a400-155c696f971d")
 	)
 	(wire
 		(pts
-			(xy 158.75 161.29) (xy 158.75 184.15)
+			(xy 190.5 93.98) (xy 190.5 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "208c177c-c420-4053-9e2b-2e6fd57ef551")
+		(uuid "5f6b38e4-4c27-45b6-9dcc-ae93542712eb")
 	)
 	(wire
 		(pts
-			(xy 107.95 86.36) (xy 107.95 100.33)
+			(xy 190.5 85.09) (xy 190.5 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "20aae5de-5595-476b-8a5c-463af112794d")
-	)
-	(wire
-		(pts
-			(xy 154.94 139.7) (xy 154.94 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21fa41ba-fbdb-476d-8f05-bb5526355f75")
-	)
-	(wire
-		(pts
-			(xy 151.13 41.91) (xy 158.75 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ba2c30a-d021-4fd5-a036-8c14ca8c0ec8")
-	)
-	(wire
-		(pts
-			(xy 151.13 82.55) (xy 158.75 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32148558-7584-47aa-a11c-5c44de3587c6")
-	)
-	(wire
-		(pts
-			(xy 158.75 64.77) (xy 138.43 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37ca9453-1414-4eec-a468-ddef299a1c21")
-	)
-	(wire
-		(pts
-			(xy 107.95 139.7) (xy 123.19 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3806c221-db84-4c38-9e0d-82defadbe4c5")
-	)
-	(wire
-		(pts
-			(xy 144.78 238.76) (xy 161.29 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3af9a0b3-8884-40fc-9e25-2a9e3ab7c615")
-	)
-	(wire
-		(pts
-			(xy 104.14 184.15) (xy 123.19 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e7bab31-9bb0-4b25-97bd-dc4ca7351101")
-	)
-	(wire
-		(pts
-			(xy 104.14 82.55) (xy 104.14 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41b59591-a3ca-44f1-91e6-6771d2fc1f71")
-	)
-	(wire
-		(pts
-			(xy 104.14 41.91) (xy 104.14 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b0b9cf7-f9e0-4902-b49f-f842775aa9e3")
-	)
-	(wire
-		(pts
-			(xy 144.78 228.6) (xy 144.78 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "511f07d4-6384-41e0-89a3-77e8bd1dfceb")
-	)
-	(wire
-		(pts
-			(xy 111.76 41.91) (xy 104.14 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56d820be-ed6a-4695-8a85-51d003adca97")
-	)
-	(wire
-		(pts
-			(xy 111.76 125.73) (xy 107.95 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5836a8b2-b74b-42c8-b058-68a7c8755f76")
-	)
-	(wire
-		(pts
-			(xy 144.78 233.68) (xy 161.29 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5949f846-f52d-4bd8-8813-fcefc4648350")
-	)
-	(wire
-		(pts
-			(xy 138.43 139.7) (xy 154.94 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e7f68ed-c6d5-487d-bd33-0b51be83ad9b")
-	)
-	(wire
-		(pts
-			(xy 104.14 121.92) (xy 104.14 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63d39afa-6942-4910-b4df-db786ba89985")
-	)
-	(wire
-		(pts
-			(xy 161.29 228.6) (xy 144.78 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66030ddb-23b0-4896-91da-fac0bbf1135f")
-	)
-	(wire
-		(pts
-			(xy 138.43 59.69) (xy 154.94 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "714a62c2-9232-4976-9f7b-88275a3a7d3e")
-	)
-	(wire
-		(pts
-			(xy 107.95 45.72) (xy 107.95 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76414596-ff6a-4fa6-a839-edec5ac42710")
-	)
-	(wire
-		(pts
-			(xy 154.94 179.07) (xy 154.94 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a58829f-7b62-4a62-a2e9-a91ff8e07f24")
-	)
-	(wire
-		(pts
-			(xy 104.14 161.29) (xy 104.14 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7af09045-af53-40dc-8920-20ec2f7d25b1")
-	)
-	(wire
-		(pts
-			(xy 111.76 165.1) (xy 107.95 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ffc54e3-4ad6-42b2-bb98-f700b3102c2d")
-	)
-	(wire
-		(pts
-			(xy 144.78 238.76) (xy 144.78 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8379748b-b0ab-4aa3-857f-d3b4ea4f6beb")
-	)
-	(wire
-		(pts
-			(xy 104.14 105.41) (xy 123.19 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "892420c0-df6d-4ac7-bc2d-c9ccd2286b06")
-	)
-	(wire
-		(pts
-			(xy 154.94 59.69) (xy 154.94 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cb0af24-9524-4cc4-840b-ba01f6b04dd5")
-	)
-	(wire
-		(pts
-			(xy 154.94 45.72) (xy 151.13 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93328d75-18f1-47eb-897e-b1c3a5850ad8")
-	)
-	(wire
-		(pts
-			(xy 158.75 82.55) (xy 158.75 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94ea4acf-ed57-4a12-9daa-108f6f43cbb3")
-	)
-	(wire
-		(pts
-			(xy 144.78 233.68) (xy 144.78 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95f42909-7c8c-4f06-abc0-df90217acd11")
-	)
-	(wire
-		(pts
-			(xy 107.95 179.07) (xy 123.19 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96e97d29-d0a3-4f35-8e00-04d126aa1be5")
-	)
-	(wire
-		(pts
-			(xy 144.78 243.84) (xy 161.29 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "973dc2b8-cb6b-4bf5-8eab-0b65f52a4e09")
-	)
-	(wire
-		(pts
-			(xy 144.78 243.84) (xy 144.78 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a443c897-cf4c-442b-8818-7a7062ddfb21")
-	)
-	(wire
-		(pts
-			(xy 154.94 100.33) (xy 154.94 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a69421a0-1634-4a44-98af-8fd430cf3c38")
-	)
-	(wire
-		(pts
-			(xy 158.75 121.92) (xy 158.75 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad004a03-2848-4aba-8f70-7d23bd25d145")
-	)
-	(wire
-		(pts
-			(xy 151.13 121.92) (xy 158.75 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1a9eb24-73f4-4819-8da3-ec6c8587d0fe")
-	)
-	(wire
-		(pts
-			(xy 107.95 165.1) (xy 107.95 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b257ff13-03ff-43d0-a881-04223bac2132")
-	)
-	(wire
-		(pts
-			(xy 111.76 82.55) (xy 104.14 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4812cbe-41bd-4d9d-a6ac-b66a641d2198")
-	)
-	(wire
-		(pts
-			(xy 107.95 125.73) (xy 107.95 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb1be0e0-2e80-4ad0-8fab-849351ce59f4")
-	)
-	(wire
-		(pts
-			(xy 158.75 41.91) (xy 158.75 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bef328f4-bd45-4101-a172-20701a51cdfa")
-	)
-	(wire
-		(pts
-			(xy 154.94 86.36) (xy 151.13 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfb245b7-b18f-4f4c-b817-b06fb65e191f")
-	)
-	(wire
-		(pts
-			(xy 111.76 121.92) (xy 104.14 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c14aefa8-b98d-4e44-a0b7-056f57e1c7f1")
-	)
-	(wire
-		(pts
-			(xy 154.94 125.73) (xy 151.13 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4427f23-2a22-4b32-9b2e-fc374ec76226")
-	)
-	(wire
-		(pts
-			(xy 107.95 100.33) (xy 123.19 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5a7b369-88aa-49d7-839a-01fc78d56d4d")
-	)
-	(wire
-		(pts
-			(xy 158.75 184.15) (xy 138.43 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6c56076-e71a-4518-a984-f0f1ea17f5dc")
-	)
-	(wire
-		(pts
-			(xy 154.94 165.1) (xy 151.13 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc2dc442-8157-45d6-a3ab-3b9005a40b9e")
-	)
-	(wire
-		(pts
-			(xy 111.76 45.72) (xy 107.95 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e15a2342-eea1-4b89-bee1-e554c0ceebbf")
-	)
-	(wire
-		(pts
-			(xy 104.14 144.78) (xy 123.19 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec54a474-6465-49dd-939e-119f63335bb3")
-	)
-	(wire
-		(pts
-			(xy 107.95 59.69) (xy 123.19 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edd63010-dd83-4f3c-91f4-a87fb558e44d")
-	)
-	(wire
-		(pts
-			(xy 111.76 86.36) (xy 107.95 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efe45e1f-b536-4d89-aad3-ca5c22e1838c")
-	)
-	(wire
-		(pts
-			(xy 158.75 105.41) (xy 138.43 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7334f5a-883d-4628-8fde-77a5b01d2371")
+		(uuid "aea48af4-9db0-44d2-af01-5785f88cb5bf")
 	)
 	(label "RELAY_OUT_02"
 		(at 151.13 78.74 0)
@@ -1537,19 +571,8 @@
 		)
 		(uuid "5a2ddd60-a3a0-497e-8add-219168a8a350")
 	)
-	(label "RELAY_OUT_04"
-		(at 161.29 241.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5d4197c8-5c89-42d9-ba65-4689ba4f2498")
-	)
 	(label "RELAY_OUT_02"
-		(at 161.29 231.14 180)
+		(at 213.36 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1557,7 +580,18 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "699f7f10-1a6f-4b8d-a922-8f7c1e9ce2d8")
+		(uuid "5ef71f16-960f-45e9-a5d8-1d2b6279ccfb")
+	)
+	(label "RELAY_OUT_04"
+		(at 213.36 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8ce8b0b7-7728-4ad9-9d1a-901204744ffd")
 	)
 	(label "RELAY_OUT_03"
 		(at 151.13 118.11 0)
@@ -1570,19 +604,8 @@
 		)
 		(uuid "9f2a9735-348e-43df-a70d-c38dd627e55e")
 	)
-	(label "RELAY_OUT_01"
-		(at 161.29 226.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a0f8f7e7-3136-4360-ac8f-ff8b8d70ad15")
-	)
 	(label "RELAY_OUT_03"
-		(at 161.29 236.22 180)
+		(at 213.36 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1590,7 +613,18 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "ae644c01-a7d3-4072-9952-05296057aa75")
+		(uuid "bc891846-315f-4e26-a0fd-a9fa4cd17a79")
+	)
+	(label "RELAY_OUT_01"
+		(at 213.36 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c89d6ba0-9807-4989-b6c3-cca0d1a3641f")
 	)
 	(label "RELAY_OUT_04"
 		(at 151.13 157.48 0)
@@ -1656,253 +690,17 @@
 		(uuid "f8c2717b-ba0e-42c3-8919-5bfa00429981")
 	)
 	(symbol
-		(lib_id "Isolator:LTV-847S")
-		(at 130.81 102.87 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6977e6c1-6ccb-4a03-bc39-a257a8e2499a")
-		(property "Reference" "U2"
-			(at 130.81 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTV-847S"
-			(at 130.81 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:SMDIP-16_W9.53mm"
-			(at 130.81 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 115.57 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-16"
-			(at 130.81 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "85dc9be6-b8a6-4141-bd4a-b36d53e65560")
-		)
-		(pin "4"
-			(uuid "11cea8cf-bce4-4690-b957-7eb8ba80d33c")
-		)
-		(pin "7"
-			(uuid "75fc5452-4aa3-4632-92f0-637fb0f86327")
-		)
-		(pin "6"
-			(uuid "c0845397-7ffc-4637-9fea-fe0279c38412")
-		)
-		(pin "8"
-			(uuid "051a4d98-a568-46c9-b85f-f153e18549bf")
-		)
-		(pin "16"
-			(uuid "716192e2-bfff-4cdb-9861-b48944ae2c15")
-		)
-		(pin "12"
-			(uuid "a3657e04-2e37-466e-a479-41d46b94375d")
-		)
-		(pin "1"
-			(uuid "2fae33f6-4da5-478a-a35e-23e403d6024d")
-		)
-		(pin "15"
-			(uuid "4fc9b8bb-2319-4e1b-b9c9-989389f0a236")
-		)
-		(pin "14"
-			(uuid "56721f8e-a1fd-4fb3-84d9-ff98f39aa236")
-		)
-		(pin "3"
-			(uuid "eae5466a-2bac-44df-a2e0-03459fed58ee")
-		)
-		(pin "11"
-			(uuid "1b2a8a26-32c2-4ef0-8296-6de670aa5061")
-		)
-		(pin "2"
-			(uuid "908f51d2-72f1-47e4-addb-369932cc0ccc")
-		)
-		(pin "9"
-			(uuid "9e280882-eccf-4740-92f0-173ef18b4791")
-		)
-		(pin "13"
-			(uuid "9c82c127-d293-4e5f-9c29-68aa71a98a55")
-		)
-		(pin "5"
-			(uuid "f7d1efc2-a27a-4090-a8a5-f050920e2dd7")
-		)
-		(instances
-			(project "RS232-Relay"
-				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f/6243990a-47f3-4383-9005-5094cba86ad2"
-					(reference "U2")
-					(unit 3)
-				)
-				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f/4cc60208-aa63-44fd-9447-92e9d40fbb60"
-					(reference "U5")
-					(unit 3)
-				)
-				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f/f5401bb4-9575-46b7-b322-a153ebcf6229"
-					(reference "U6")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:LTV-847S")
-		(at 130.81 62.23 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1f83cd8-10d6-46c3-9b1b-f192b171c54c")
-		(property "Reference" "U2"
-			(at 130.81 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTV-847S"
-			(at 130.81 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:SMDIP-16_W9.53mm"
-			(at 130.81 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 115.57 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-16"
-			(at 130.81 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "e08bea54-639e-48db-9af2-89d42eabc03a")
-		)
-		(pin "4"
-			(uuid "11cea8cf-bce4-4690-b957-7eb8ba80d33a")
-		)
-		(pin "7"
-			(uuid "43a11db5-7010-4045-8959-ba9e6974d383")
-		)
-		(pin "6"
-			(uuid "cf7622ea-b79c-46ee-a684-a055ec4b997d")
-		)
-		(pin "8"
-			(uuid "dc868c76-e7d3-4d15-8b06-8cfabd4984bb")
-		)
-		(pin "16"
-			(uuid "716192e2-bfff-4cdb-9861-b48944ae2c13")
-		)
-		(pin "12"
-			(uuid "98bfecf3-7165-469d-a08a-324b4502c335")
-		)
-		(pin "1"
-			(uuid "2fae33f6-4da5-478a-a35e-23e403d6024b")
-		)
-		(pin "15"
-			(uuid "4fc9b8bb-2319-4e1b-b9c9-989389f0a234")
-		)
-		(pin "14"
-			(uuid "56721f8e-a1fd-4fb3-84d9-ff98f39aa234")
-		)
-		(pin "3"
-			(uuid "eae5466a-2bac-44df-a2e0-03459fed58ec")
-		)
-		(pin "11"
-			(uuid "dff1afbf-97d4-4177-86d7-8fdcc567fe75")
-		)
-		(pin "2"
-			(uuid "908f51d2-72f1-47e4-addb-369932cc0cca")
-		)
-		(pin "9"
-			(uuid "fae61df8-ed70-408d-94dd-36340dfa7f51")
-		)
-		(pin "13"
-			(uuid "9c82c127-d293-4e5f-9c29-68aa71a98a53")
-		)
-		(pin "5"
-			(uuid "b23aea85-fa81-4ca8-9c80-f630217ef520")
-		)
-		(instances
-			(project "RS232-Relay"
-				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f/6243990a-47f3-4383-9005-5094cba86ad2"
-					(reference "U2")
-					(unit 4)
-				)
-				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f/4cc60208-aa63-44fd-9447-92e9d40fbb60"
-					(reference "U5")
-					(unit 4)
-				)
-				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f/f5401bb4-9575-46b7-b322-a153ebcf6229"
-					(reference "U6")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
-		(at 166.37 233.68 0)
+		(at 218.44 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a2b8bacc-7eb5-4c94-8d60-de3bca82c40f")
-		(property "Reference" "J9"
-			(at 168.91 233.6799 0)
+		(uuid "43a17236-f2ca-4834-952f-d740c73fa7ee")
+		(property "Reference" "J1"
+			(at 220.98 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1910,8 +708,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Relay 1-4"
-			(at 168.91 236.2199 0)
+		(property "Value" "Conn_01x08"
+			(at 220.98 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1919,8 +717,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_8-G-5,08_1x08_P5.08mm_Horizontal"
-			(at 166.37 233.68 0)
+		(property "Footprint" "Header:PhoenixContact_MSTBA_2,5_8-G-5,08_1x08_P5.08mm_Horizontal"
+			(at 218.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1929,7 +727,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 233.68 0)
+			(at 218.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1938,85 +736,67 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 166.37 233.68 0)
+			(at 218.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Man PN" "1757307"
-			(at 166.37 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C114599"
-			(at 166.37 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4733eb83-fe4a-4140-b3f6-411b0149fbc4")
-		)
-		(pin "4"
-			(uuid "69eff133-bb22-4b03-bf8b-6bfbe1156d91")
-		)
-		(pin "6"
-			(uuid "6b3fd12d-171e-46c2-b34a-098d41f0f00a")
-		)
-		(pin "8"
-			(uuid "7846dfdc-00b0-4804-8061-eed071ca903e")
-		)
-		(pin "3"
-			(uuid "4cfc1cc7-1374-4e74-beb0-0d38adc96f9f")
-		)
-		(pin "2"
-			(uuid "a97da52f-db81-479f-aac0-2c94ab011b12")
 		)
 		(pin "5"
-			(uuid "13401d92-78da-4d28-92d4-bf2c4eacf282")
+			(uuid "33cbe1d1-ad55-46f2-a18c-15bb9da5672c")
+		)
+		(pin "1"
+			(uuid "303a5d44-a529-4ca8-991a-796c44a1a0c2")
+		)
+		(pin "4"
+			(uuid "862e3987-1048-450f-9418-1b365732bcb7")
+		)
+		(pin "3"
+			(uuid "50f1c1b2-a94a-43a7-85bc-cc1996f520fb")
+		)
+		(pin "2"
+			(uuid "66394ee4-a63b-430f-b755-d9643562949a")
+		)
+		(pin "8"
+			(uuid "581b3eec-ca55-485a-8938-b1007fc30baf")
+		)
+		(pin "6"
+			(uuid "1c93b47d-e1e1-4b03-91dc-3f9599fd880a")
 		)
 		(pin "7"
-			(uuid "8b3099f1-52b2-4e3b-9a1d-5f63930222e8")
+			(uuid "071831ab-c751-4fd4-a630-7ff7f2ae6a1e")
 		)
 		(instances
 			(project "RS232-Relay"
 				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f/6243990a-47f3-4383-9005-5094cba86ad2"
-					(reference "J9")
+					(reference "J1")
 					(unit 1)
 				)
 				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f/4cc60208-aa63-44fd-9447-92e9d40fbb60"
-					(reference "J10")
+					(reference "J3")
 					(unit 1)
 				)
 				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f/f5401bb4-9575-46b7-b322-a153ebcf6229"
-					(reference "J11")
+					(reference "J6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 144.78 248.92 0)
+		(lib_id "power:GNDREF")
+		(at 190.5 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b209c604-8568-4a47-ad85-d0aabeb721b5")
-		(property "Reference" "#PWR066"
-			(at 144.78 255.27 0)
+		(uuid "c264ce33-ae93-4978-af40-4ad0d5d870eb")
+		(property "Reference" "#PWR0126"
+			(at 190.5 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2024,8 +804,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 144.78 254 0)
+		(property "Value" "GNDREF"
+			(at 190.5 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2033,7 +813,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 248.92 0)
+			(at 190.5 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2042,7 +822,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 248.92 0)
+			(at 190.5 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2050,8 +830,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 248.92 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 190.5 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2060,257 +840,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "75ace457-4fa0-4403-b6cb-45daba42984e")
+			(uuid "0d707b83-ca50-43fe-8892-826d0018e733")
 		)
 		(instances
 			(project "RS232-Relay"
 				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f/6243990a-47f3-4383-9005-5094cba86ad2"
-					(reference "#PWR066")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f/4cc60208-aa63-44fd-9447-92e9d40fbb60"
-					(reference "#PWR067")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f/f5401bb4-9575-46b7-b322-a153ebcf6229"
-					(reference "#PWR068")
+					(reference "#PWR0128")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:LTV-847S")
-		(at 130.81 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cef4e190-16ba-40d7-988a-4a5e92e7889d")
-		(property "Reference" "U2"
-			(at 130.81 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTV-847S"
-			(at 130.81 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:SMDIP-16_W9.53mm"
-			(at 130.81 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 115.57 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-16"
-			(at 130.81 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "85dc9be6-b8a6-4141-bd4a-b36d53e6555e")
-		)
-		(pin "4"
-			(uuid "11cea8cf-bce4-4690-b957-7eb8ba80d33b")
-		)
-		(pin "7"
-			(uuid "75fc5452-4aa3-4632-92f0-637fb0f86325")
-		)
-		(pin "6"
-			(uuid "cf7622ea-b79c-46ee-a684-a055ec4b997e")
-		)
-		(pin "8"
-			(uuid "051a4d98-a568-46c9-b85f-f153e18549bd")
-		)
-		(pin "16"
-			(uuid "ee41ee69-f0c8-4162-b9d8-5d048198a27d")
-		)
-		(pin "12"
-			(uuid "98bfecf3-7165-469d-a08a-324b4502c336")
-		)
-		(pin "1"
-			(uuid "37b62ec4-7788-4be0-b020-8479f51a42e2")
-		)
-		(pin "15"
-			(uuid "716306b8-b8d0-4929-9f86-08d2b2ea53da")
-		)
-		(pin "14"
-			(uuid "56721f8e-a1fd-4fb3-84d9-ff98f39aa235")
-		)
-		(pin "3"
-			(uuid "eae5466a-2bac-44df-a2e0-03459fed58ed")
-		)
-		(pin "11"
-			(uuid "dff1afbf-97d4-4177-86d7-8fdcc567fe76")
-		)
-		(pin "2"
-			(uuid "258f872e-a098-4dd9-a80c-535e4253c0f4")
-		)
-		(pin "9"
-			(uuid "9e280882-eccf-4740-92f0-173ef18b478f")
-		)
-		(pin "13"
-			(uuid "9c82c127-d293-4e5f-9c29-68aa71a98a54")
-		)
-		(pin "5"
-			(uuid "b23aea85-fa81-4ca8-9c80-f630217ef521")
-		)
-		(instances
-			(project "RS232-Relay"
-				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f/6243990a-47f3-4383-9005-5094cba86ad2"
-					(reference "U2")
-					(unit 1)
-				)
-				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f/4cc60208-aa63-44fd-9447-92e9d40fbb60"
-					(reference "U5")
-					(unit 1)
-				)
-				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f/f5401bb4-9575-46b7-b322-a153ebcf6229"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:LTV-847S")
-		(at 130.81 142.24 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f226c10a-4640-455a-881f-10bc7fc0ca14")
-		(property "Reference" "U2"
-			(at 130.81 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTV-847S"
-			(at 130.81 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:SMDIP-16_W9.53mm"
-			(at 130.81 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 115.57 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-16"
-			(at 130.81 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "85dc9be6-b8a6-4141-bd4a-b36d53e6555f")
-		)
-		(pin "4"
-			(uuid "5031a460-cd03-426d-8a54-78ca78aa9de1")
-		)
-		(pin "7"
-			(uuid "75fc5452-4aa3-4632-92f0-637fb0f86326")
-		)
-		(pin "6"
-			(uuid "cf7622ea-b79c-46ee-a684-a055ec4b997f")
-		)
-		(pin "8"
-			(uuid "051a4d98-a568-46c9-b85f-f153e18549be")
-		)
-		(pin "16"
-			(uuid "716192e2-bfff-4cdb-9861-b48944ae2c14")
-		)
-		(pin "12"
-			(uuid "98bfecf3-7165-469d-a08a-324b4502c337")
-		)
-		(pin "1"
-			(uuid "2fae33f6-4da5-478a-a35e-23e403d6024c")
-		)
-		(pin "15"
-			(uuid "4fc9b8bb-2319-4e1b-b9c9-989389f0a235")
-		)
-		(pin "14"
-			(uuid "b675e6b7-258a-4fda-98dd-de4ebdd3bb1e")
-		)
-		(pin "3"
-			(uuid "ed8c65a0-a406-4284-993d-98692a8575ef")
-		)
-		(pin "11"
-			(uuid "dff1afbf-97d4-4177-86d7-8fdcc567fe77")
-		)
-		(pin "2"
-			(uuid "908f51d2-72f1-47e4-addb-369932cc0ccb")
-		)
-		(pin "9"
-			(uuid "9e280882-eccf-4740-92f0-173ef18b4790")
-		)
-		(pin "13"
-			(uuid "92b3318f-1936-4254-b577-14a8c749d015")
-		)
-		(pin "5"
-			(uuid "b23aea85-fa81-4ca8-9c80-f630217ef522")
-		)
-		(instances
-			(project "RS232-Relay"
-				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f/6243990a-47f3-4383-9005-5094cba86ad2"
-					(reference "U2")
-					(unit 2)
-				)
-				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f/4cc60208-aa63-44fd-9447-92e9d40fbb60"
-					(reference "U5")
-					(unit 2)
-				)
-				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f/f5401bb4-9575-46b7-b322-a153ebcf6229"
-					(reference "U6")
-					(unit 2)
 				)
 			)
 		)
@@ -2364,46 +908,6 @@
 				(justify left)
 			)
 			(uuid "b1e25a7a-b860-48b9-b89b-86b39483c390")
-		)
-		(pin "OPTO_RIGHT_OUT" input
-			(at 151.13 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "03616fec-5260-4b0a-8d1d-2895d4449e59")
-		)
-		(pin "OPTO_RIGHT_IN" input
-			(at 151.13 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3225a53a-bc69-405c-85ae-609d78d13dcb")
-		)
-		(pin "OPTO_LEFT_IN" input
-			(at 111.76 125.73 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "2ee1da54-d305-429f-a2a2-fee5bafc12f3")
-		)
-		(pin "OPTO_LEFT_OUT" input
-			(at 111.76 121.92 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "1a463832-94e4-4830-9102-1ede9b72fde2")
 		)
 		(instances
 			(project "RS232-Relay"
@@ -2469,46 +973,6 @@
 			)
 			(uuid "99a2b981-02cc-40f4-9933-76d8606bd059")
 		)
-		(pin "OPTO_RIGHT_OUT" input
-			(at 151.13 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "a9e6c533-fc90-41d1-b953-fdd7b5e878be")
-		)
-		(pin "OPTO_RIGHT_IN" input
-			(at 151.13 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "f460a70e-8ff8-462e-ab72-7b39789a4d16")
-		)
-		(pin "OPTO_LEFT_IN" input
-			(at 111.76 86.36 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "d257f74d-3ea4-48aa-8cba-37bbe9e481bb")
-		)
-		(pin "OPTO_LEFT_OUT" input
-			(at 111.76 82.55 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "552dde05-f3eb-4efb-ad77-628544125037")
-		)
 		(instances
 			(project "RS232-Relay"
 				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f/6243990a-47f3-4383-9005-5094cba86ad2"
@@ -2573,46 +1037,6 @@
 			)
 			(uuid "d24edd95-48ef-4ba8-b7c4-00cf9a5490f0")
 		)
-		(pin "OPTO_RIGHT_OUT" input
-			(at 151.13 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "99f4b5ff-bc11-4a06-abd4-f6202523ddff")
-		)
-		(pin "OPTO_RIGHT_IN" input
-			(at 151.13 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "ce1ac402-619c-4a94-841c-ddaa58278ab9")
-		)
-		(pin "OPTO_LEFT_IN" input
-			(at 111.76 165.1 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "95c37d6b-c8fd-4206-a37c-24adfa026343")
-		)
-		(pin "OPTO_LEFT_OUT" input
-			(at 111.76 161.29 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "e0bb707b-f442-48a6-9ca7-7300b1e7f689")
-		)
 		(instances
 			(project "RS232-Relay"
 				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f/6243990a-47f3-4383-9005-5094cba86ad2"
@@ -2676,46 +1100,6 @@
 				(justify left)
 			)
 			(uuid "8aacf062-ca4b-41c6-984a-5e657a557e4b")
-		)
-		(pin "OPTO_RIGHT_OUT" input
-			(at 151.13 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "5c3ab809-4941-4f53-9af4-c789ee3db93b")
-		)
-		(pin "OPTO_RIGHT_IN" input
-			(at 151.13 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "095f47d3-2b33-41e7-b590-a7a2d5334137")
-		)
-		(pin "OPTO_LEFT_IN" input
-			(at 111.76 45.72 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "1a3e42a1-059c-4b70-af3e-f1b3b7495bdf")
-		)
-		(pin "OPTO_LEFT_OUT" input
-			(at 111.76 41.91 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "39c5b12c-5658-4c51-b6f7-d64a19dde0b1")
 		)
 		(instances
 			(project "RS232-Relay"
