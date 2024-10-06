@@ -5488,6 +5488,17 @@
 		)
 		(uuid "fc33e785-d64b-4503-9c86-616f272599f4")
 	)
+	(label "RELAY_IN_10"
+		(at 325.12 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "017a1659-1d87-427a-9aad-dff187d36677")
+	)
 	(label "ULN_RELAY_12"
 		(at 502.92 151.13 0)
 		(fields_autoplaced yes)
@@ -5509,28 +5520,6 @@
 			(justify left bottom)
 		)
 		(uuid "05197fdf-4a83-4e35-96e2-50144fa9881e")
-	)
-	(label "RELAY_IN_09"
-		(at 518.16 31.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "07931c30-9383-49ad-9edd-4468efcb0f1f")
-	)
-	(label "ULN_ISO_04"
-		(at 369.57 100.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0bc8a280-a585-44da-8f5a-28b839dcd92f")
 	)
 	(label "ESP_32_GPIO_01"
 		(at 187.96 125.73 180)
@@ -5555,8 +5544,19 @@
 		)
 		(uuid "0fdc31c3-e6cb-474d-be99-b065df0de8cc")
 	)
-	(label "RELAY_IN_04"
-		(at 369.57 92.71 180)
+	(label "ULN_ISO_05"
+		(at 344.17 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0fdd1a7b-0da1-4708-a63c-0ac0bbd89f57")
+	)
+	(label "RELAY_IN_06"
+		(at 325.12 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5564,7 +5564,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "10f90ade-381f-4d04-afd3-b8d7b6d4859c")
+		(uuid "10b67612-711e-4dcf-97ac-20a285a0810d")
 	)
 	(label "ESP_32_GPIO_05"
 		(at 187.96 135.89 180)
@@ -5589,16 +5589,16 @@
 		)
 		(uuid "135b37ff-85de-4446-a74e-4f62693bdc3e")
 	)
-	(label "RELAY_IN_10"
-		(at 518.16 52.07 180)
+	(label "ULN_ISO_01"
+		(at 344.17 26.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "15c869bb-dae7-4742-a9aa-d6f62e284b5c")
+		(uuid "16abda97-80af-472f-b9bb-20370e19b509")
 	)
 	(label "ULN_RELAY_05"
 		(at 445.77 148.59 0)
@@ -5633,16 +5633,16 @@
 		)
 		(uuid "209ebf4a-b6f5-40e8-9433-5656a629a186")
 	)
-	(label "RELAY_IN_07"
-		(at 444.5 72.39 180)
+	(label "ULN_ISO_06"
+		(at 344.17 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "20e1c056-4be8-4da6-995f-365340efc913")
+		(uuid "222fabe8-58bb-448c-bf37-32fe3763da61")
 	)
 	(label "ULN_RELAY_04"
 		(at 445.77 146.05 0)
@@ -5666,17 +5666,6 @@
 			(justify right bottom)
 		)
 		(uuid "241db3a9-0e5b-45ce-869d-476207a55d3d")
-	)
-	(label "RELAY_IN_08"
-		(at 444.5 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "28360c63-2e51-47ef-ab6d-bf4135ff6373")
 	)
 	(label "ULN_RELAY_10"
 		(at 502.92 146.05 0)
@@ -5734,17 +5723,6 @@
 		)
 		(uuid "2a6ae3a6-b0dd-41bb-a44c-290d0964f9b3")
 	)
-	(label "ULN_ISO_10"
-		(at 518.16 59.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2ad08727-98ad-44e2-a25b-bc107d3571a5")
-	)
 	(label "ULN_RELAY_09"
 		(at 502.92 143.51 0)
 		(fields_autoplaced yes)
@@ -5767,6 +5745,28 @@
 		)
 		(uuid "2d35b5cd-c0c2-4b03-9e90-849447ca8811")
 	)
+	(label "ULN_ISO_07"
+		(at 344.17 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2fe2047a-cdf8-46f3-b024-ea207763b191")
+	)
+	(label "ULN_ISO_03"
+		(at 344.17 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31e314f2-1a9f-4eca-9960-6f3c367370e2")
+	)
 	(label "RELAY_OUT_03"
 		(at 426.72 198.12 180)
 		(fields_autoplaced yes)
@@ -5777,17 +5777,6 @@
 			(justify right bottom)
 		)
 		(uuid "32cce34e-26ff-475c-a19f-7c0732764116")
-	)
-	(label "ULN_ISO_02"
-		(at 369.57 59.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3356c609-5ae8-4361-86cf-d8a2ac27e191")
 	)
 	(label "ESP_32_GPIO_14"
 		(at 252.73 120.65 180)
@@ -5813,6 +5802,17 @@
 		)
 		(uuid "3ba2132b-b63c-46b7-bee0-2c11ff1fce1f")
 	)
+	(label "ULN_ISO_10"
+		(at 344.17 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c49a753-3e10-4b5c-b908-c56f3b958f39")
+	)
 	(label "RELAY_OUT_08"
 		(at 472.44 203.2 180)
 		(fields_autoplaced yes)
@@ -5823,6 +5823,28 @@
 			(justify right bottom)
 		)
 		(uuid "48d0974d-b4a9-4ed3-80e6-93c148e9acef")
+	)
+	(label "ULN_ISO_08"
+		(at 344.17 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a229ccc-0140-451d-9a52-0f3361ec25bc")
+	)
+	(label "RELAY_IN_01"
+		(at 325.12 24.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4ac38dd1-33f7-4399-8f08-d66a602f80fa")
 	)
 	(label "RELAY_OUT_01"
 		(at 408.94 31.75 0)
@@ -5901,17 +5923,6 @@
 		)
 		(uuid "5a7ce217-8a89-4979-8ccc-d095a54dddc1")
 	)
-	(label "RELAY_IN_01"
-		(at 369.57 31.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5e40bfee-c0d5-4ff3-82b8-0235146b7531")
-	)
 	(label "ULN_ISO_10"
 		(at 482.6 146.05 180)
 		(fields_autoplaced yes)
@@ -5946,16 +5957,27 @@
 		)
 		(uuid "6d14c0ea-7182-47cc-9a1d-a4d2ad2beaff")
 	)
-	(label "RELAY_IN_02"
-		(at 369.57 52.07 180)
+	(label "ULN_ISO_09"
+		(at 344.17 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "77444fc8-00d0-4ddb-afaf-845a5f8b17d1")
+		(uuid "7249bc6c-f7ae-4a70-ade2-929cc985b7dd")
+	)
+	(label "ULN_ISO_04"
+		(at 344.17 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77f78a1a-f64d-41e4-9bd7-0d41987cf6cb")
 	)
 	(label "ULN_RELAY_08"
 		(at 483.87 100.33 0)
@@ -6001,8 +6023,8 @@
 		)
 		(uuid "7d3ae49f-52f9-4f6f-8fc5-3ac5a97ffcd0")
 	)
-	(label "RELAY_IN_11"
-		(at 518.16 72.39 180)
+	(label "RELAY_IN_02"
+		(at 325.12 29.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6010,7 +6032,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "7db56df0-d954-4ba8-b9c0-8c07110e0a3f")
+		(uuid "7f7de8d9-562e-4d28-818f-8884466f75f4")
 	)
 	(label "ULN_RELAY_10"
 		(at 557.53 59.69 0)
@@ -6034,6 +6056,17 @@
 			(justify right bottom)
 		)
 		(uuid "82ce03ac-e34c-421e-b7a6-06f26c9ddfd6")
+	)
+	(label "RELAY_IN_03"
+		(at 325.12 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "835fd19d-af53-4a83-b5ec-72b4be854481")
 	)
 	(label "RELAY_OUT_05"
 		(at 472.44 187.96 180)
@@ -6090,17 +6123,6 @@
 		)
 		(uuid "8d1ab862-7d8f-48e3-a172-a7fb2868226d")
 	)
-	(label "RELAY_IN_12"
-		(at 518.16 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8d6b97e5-694a-4c7e-8603-c28490f0b7f5")
-	)
 	(label "ULN_ISO_01"
 		(at 425.45 138.43 180)
 		(fields_autoplaced yes)
@@ -6111,28 +6133,6 @@
 			(justify right bottom)
 		)
 		(uuid "90b56cf0-38f8-4d0c-a45d-2bd54242f5ae")
-	)
-	(label "RELAY_IN_05"
-		(at 444.5 31.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "91ffaccf-5c5d-4e52-94c6-69454cdddf20")
-	)
-	(label "ULN_ISO_11"
-		(at 518.16 80.01 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "95e5fd10-02d8-4b57-9fb7-bd8eeb4d1cc8")
 	)
 	(label "RELAY_OUT_09"
 		(at 516.89 187.96 180)
@@ -6155,17 +6155,6 @@
 			(justify left bottom)
 		)
 		(uuid "9886a3c0-f04f-45cb-af90-6b76fabd71d6")
-	)
-	(label "ULN_ISO_01"
-		(at 369.57 39.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9b27c529-487a-4719-af61-5d7c2ac6564f")
 	)
 	(label "ULN_ISO_09"
 		(at 482.6 143.51 180)
@@ -6258,17 +6247,6 @@
 		)
 		(uuid "ad495a4d-11e7-4f70-9e8c-643919526069")
 	)
-	(label "ULN_ISO_06"
-		(at 444.5 59.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b1ceea57-2483-4c72-bc2d-fdc205ae3acc")
-	)
 	(label "ESP_32_UART_RX"
 		(at 252.73 118.11 180)
 		(fields_autoplaced yes)
@@ -6281,17 +6259,6 @@
 		)
 		(uuid "b47d0085-2eb8-40d1-ac35-471043b0deb3")
 	)
-	(label "RELAY_IN_06"
-		(at 444.5 52.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b7e8dbd1-74db-48a6-a32d-9d257729ab70")
-	)
 	(label "ESP_32_GPIO_04"
 		(at 187.96 133.35 180)
 		(fields_autoplaced yes)
@@ -6303,17 +6270,6 @@
 			(justify right bottom)
 		)
 		(uuid "b89c1929-f26b-42c3-8ab2-1d4dd5d54606")
-	)
-	(label "ULN_ISO_09"
-		(at 518.16 39.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ba3f7d6c-859c-4131-a815-f07711aecc22")
 	)
 	(label "ULN_RELAY_03"
 		(at 408.94 80.01 0)
@@ -6337,6 +6293,17 @@
 		)
 		(uuid "bc13d940-d693-45f4-968b-af5dd2982ff8")
 	)
+	(label "RELAY_IN_08"
+		(at 325.12 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bef7ea91-d3ca-47db-9c3c-022647b13544")
+	)
 	(label "ULN_RELAY_05"
 		(at 483.87 39.37 0)
 		(fields_autoplaced yes)
@@ -6358,6 +6325,17 @@
 			(justify right bottom)
 		)
 		(uuid "c02fa266-dbc6-413b-892d-1688c5934719")
+	)
+	(label "RELAY_IN_11"
+		(at 325.12 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c1f06d2e-5801-4b21-ae63-a3b347da02b3")
 	)
 	(label "ESP_32_GPIO_20"
 		(at 251.46 130.81 180)
@@ -6404,28 +6382,6 @@
 		)
 		(uuid "c743b655-a582-469c-93ba-72b669e2d5bb")
 	)
-	(label "ULN_ISO_05"
-		(at 444.5 39.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c7eddd83-a471-44f5-b3cf-8a26496ce5d1")
-	)
-	(label "RELAY_IN_03"
-		(at 369.57 72.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c900d9c2-8205-4cb6-9b4d-9673aea1fc69")
-	)
 	(label "RELAY_OUT_01"
 		(at 426.72 187.96 180)
 		(fields_autoplaced yes)
@@ -6437,8 +6393,8 @@
 		)
 		(uuid "ca3ab06d-6bb6-41fd-8e80-75be3208459c")
 	)
-	(label "ULN_ISO_12"
-		(at 518.16 100.33 180)
+	(label "RELAY_IN_09"
+		(at 325.12 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6446,7 +6402,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "ca820a63-146f-41d5-a955-b4d6608be010")
+		(uuid "ca9a4297-e8fb-4b60-91c6-e728b7590fdc")
 	)
 	(label "ULN_ISO_02"
 		(at 425.45 140.97 180)
@@ -6459,16 +6415,16 @@
 		)
 		(uuid "ceeb1008-59db-4bfc-81e5-221f8319950a")
 	)
-	(label "ULN_ISO_03"
-		(at 369.57 80.01 180)
+	(label "ULN_ISO_02"
+		(at 344.17 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "cf5f42df-ec05-40d0-b996-5ea5cb447883")
+		(uuid "d084d79a-c8fa-4e65-9b8e-3990013638b4")
 	)
 	(label "RELAY_OUT_09"
 		(at 557.53 31.75 0)
@@ -6481,8 +6437,8 @@
 		)
 		(uuid "d30a1abb-00fa-41bf-94cd-19f0913488e9")
 	)
-	(label "ULN_ISO_08"
-		(at 444.5 100.33 180)
+	(label "RELAY_IN_12"
+		(at 325.12 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6490,7 +6446,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "d8e6ab5b-4bdb-458c-96be-fb60e421b825")
+		(uuid "d716185f-111b-4c55-81f0-80561d7ca14d")
 	)
 	(label "ULN_RELAY_07"
 		(at 502.92 138.43 0)
@@ -6502,6 +6458,17 @@
 			(justify left bottom)
 		)
 		(uuid "d97c7951-0482-4493-b339-7bc9ce328f46")
+	)
+	(label "ULN_ISO_11"
+		(at 344.17 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc4ad0cd-2580-4cfe-a5d8-6d3c225cc869")
 	)
 	(label "RELAY_OUT_02"
 		(at 426.72 193.04 180)
@@ -6536,6 +6503,17 @@
 		)
 		(uuid "dccfd38d-6f9c-4b28-9dee-bffcf2263029")
 	)
+	(label "ULN_ISO_12"
+		(at 344.17 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcfae963-e179-4f51-8c5d-a4d62df8cfc4")
+	)
 	(label "ULN_RELAY_06"
 		(at 445.77 151.13 0)
 		(fields_autoplaced yes)
@@ -6546,6 +6524,17 @@
 			(justify left bottom)
 		)
 		(uuid "de93a3d1-affe-4c81-9426-2c51482c1bfe")
+	)
+	(label "RELAY_IN_05"
+		(at 325.12 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e510b1a7-8d4a-4c57-bd2e-1bd1318ce48a")
 	)
 	(label "ESP_32_GPIO_21"
 		(at 251.46 133.35 180)
@@ -6570,8 +6559,8 @@
 		)
 		(uuid "f451c208-b087-43e0-a386-830e02b0537b")
 	)
-	(label "ULN_ISO_07"
-		(at 444.5 80.01 180)
+	(label "RELAY_IN_04"
+		(at 325.12 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6579,7 +6568,18 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "fb6ae9d8-4dc2-478d-88c1-44a6a43c62cd")
+		(uuid "fc79cdf5-eb08-4417-9019-0600643810a4")
+	)
+	(label "RELAY_IN_07"
+		(at 325.12 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ff35efa9-550b-4cb0-a042-edcaa2538ba7")
 	)
 	(label "RELAY_OUT_02"
 		(at 408.94 52.07 0)
@@ -7440,7 +7440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_SMDSocket_SmallPads"
 			(at 436.88 157.48 0)
 			(effects
 				(font
@@ -7460,6 +7460,15 @@
 			)
 		)
 		(property "Description" "High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16"
+			(at 435.61 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2690547"
 			(at 435.61 143.51 0)
 			(effects
 				(font
@@ -9173,7 +9182,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_SMDSocket_SmallPads"
 			(at 494.03 157.48 0)
 			(effects
 				(font
@@ -9193,6 +9202,15 @@
 			)
 		)
 		(property "Description" "High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16"
+			(at 492.76 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2690547"
 			(at 492.76 143.51 0)
 			(effects
 				(font
@@ -11936,16 +11954,6 @@
 			)
 			(uuid "5800ed17-7525-4eb7-86ae-8becc96e02e6")
 		)
-		(pin "ULN_ISOLATOR" input
-			(at 444.5 80.01 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "901e9841-5961-4572-a9b8-4f85b9e1b235")
-		)
 		(pin "ULN_RELAY" input
 			(at 483.87 80.01 0)
 			(effects
@@ -11956,20 +11964,128 @@
 			)
 			(uuid "9fe0bb0f-ea88-4d0b-a60b-07fca7743d3e")
 		)
-		(pin "ESP32_IN" input
-			(at 444.5 72.39 180)
+		(instances
+			(project "RS232-Relay"
+				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 325.12 20.32)
+		(size 19.05 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "10bb8a44-3efe-4133-bbaa-537822590ec9")
+		(property "Sheetname" "Isolator"
+			(at 325.12 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 325.12 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ULN_ISO_01" input
+			(at 344.17 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f6d08535-8169-48ad-b736-184225dda9c4")
+		)
+		(pin "RELAY_IN_02" input
+			(at 325.12 29.21 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b59d5ed8-6f60-46f0-896b-f1d9384eff4a")
+			(uuid "a9d3d6b7-829c-4402-9864-ce35c63884d9")
+		)
+		(pin "RELAY_IN_01" input
+			(at 325.12 24.13 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5b7f3ec8-ca74-4fc6-a990-4e52c563b0e7")
+		)
+		(pin "RELAY_IN_03" input
+			(at 325.12 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a65fa83c-f741-4eaa-8b49-c75b782e4410")
+		)
+		(pin "RELAY_IN_04" input
+			(at 325.12 39.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "321f7bbd-0c01-460e-88d1-6866470a7676")
+		)
+		(pin "ULN_ISO_04" input
+			(at 344.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a37cba3c-a23b-4e3a-8c59-eab0ebe6a4ae")
+		)
+		(pin "ULN_ISO_03" input
+			(at 344.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "eff5e619-63fc-4200-aac5-34285f060a45")
+		)
+		(pin "ULN_ISO_02" input
+			(at 344.17 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1423fd6a-9525-4bfa-a067-32df7bdf3f8a")
 		)
 		(instances
 			(project "RS232-Relay"
 				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f"
-					(page "3")
+					(page "14")
 				)
 			)
 		)
@@ -12014,16 +12130,6 @@
 			)
 			(uuid "ca6ad29b-3bc2-4d7e-a108-ce55dbd9ad4a")
 		)
-		(pin "ULN_ISOLATOR" input
-			(at 369.57 39.37 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "2ca4a483-3101-436e-af52-ebbef1f48166")
-		)
 		(pin "ULN_RELAY" input
 			(at 408.94 39.37 0)
 			(effects
@@ -12033,16 +12139,6 @@
 				(justify right)
 			)
 			(uuid "1935307c-9053-4e0b-85a1-e564182b0bc8")
-		)
-		(pin "ESP32_IN" input
-			(at 369.57 31.75 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "1bb6ad35-cb19-4485-a20b-795f22d98103")
 		)
 		(instances
 			(project "RS232-Relay"
@@ -12092,16 +12188,6 @@
 			)
 			(uuid "85099c2b-ca4d-4377-a197-902453f6cb9f")
 		)
-		(pin "ULN_ISOLATOR" input
-			(at 444.5 59.69 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "62bb671f-c2de-45d9-a81f-e53c5947d87a")
-		)
 		(pin "ULN_RELAY" input
 			(at 483.87 59.69 0)
 			(effects
@@ -12111,16 +12197,6 @@
 				(justify right)
 			)
 			(uuid "7fc5c53e-6716-400a-8c89-23cfd9393c41")
-		)
-		(pin "ESP32_IN" input
-			(at 444.5 52.07 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9a20e465-e522-4eae-91fa-a9af9945ac8e")
 		)
 		(instances
 			(project "RS232-Relay"
@@ -12170,16 +12246,6 @@
 			)
 			(uuid "c95a8c7d-d694-467e-8171-75eb69af9c8d")
 		)
-		(pin "ULN_ISOLATOR" input
-			(at 369.57 100.33 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "ba60eba8-031d-4a4a-9897-9edef3ab354c")
-		)
 		(pin "ULN_RELAY" input
 			(at 408.94 100.33 0)
 			(effects
@@ -12189,16 +12255,6 @@
 				(justify right)
 			)
 			(uuid "cbd32637-542f-408a-ba0e-6a1253ea20ab")
-		)
-		(pin "ESP32_IN" input
-			(at 369.57 92.71 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "4e10f6e2-29cd-4366-9e48-a0e734d0d13d")
 		)
 		(instances
 			(project "RS232-Relay"
@@ -12248,16 +12304,6 @@
 			)
 			(uuid "6792f810-4c12-445d-ba8a-c4ddf707792c")
 		)
-		(pin "ULN_ISOLATOR" input
-			(at 444.5 100.33 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "0954e7ca-991b-4e06-988a-d3091c1e9b4e")
-		)
 		(pin "ULN_RELAY" input
 			(at 483.87 100.33 0)
 			(effects
@@ -12268,20 +12314,128 @@
 			)
 			(uuid "b0b8e63b-375a-4bf9-ac9a-bd3101ebdcec")
 		)
-		(pin "ESP32_IN" input
-			(at 444.5 92.71 180)
+		(instances
+			(project "RS232-Relay"
+				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 325.12 85.09)
+		(size 19.05 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "68cea88d-0005-4563-941e-da17b3d0efb0")
+		(property "Sheetname" "Isolator2"
+			(at 325.12 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 325.12 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ULN_ISO_01" input
+			(at 344.17 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2375faa3-2c58-4a2f-abb3-c8d102fb52be")
+		)
+		(pin "RELAY_IN_02" input
+			(at 325.12 93.98 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f7274536-d312-4015-84c8-f2394ee9123f")
+			(uuid "668584a1-a110-4f6a-ab2e-e83ee7fd72a3")
+		)
+		(pin "RELAY_IN_01" input
+			(at 325.12 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "119f65f8-f9da-4f1b-b12d-b620f9c43d9b")
+		)
+		(pin "RELAY_IN_03" input
+			(at 325.12 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ff68a93e-0f17-497a-894f-8f1768781ce6")
+		)
+		(pin "RELAY_IN_04" input
+			(at 325.12 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "be2d0db1-d15a-4e7e-a87e-1f95694d4d1f")
+		)
+		(pin "ULN_ISO_04" input
+			(at 344.17 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fbf1ee63-2596-480c-92c3-e5f2749e4f88")
+		)
+		(pin "ULN_ISO_03" input
+			(at 344.17 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f7c9780f-7c24-4d42-ba60-94720b08c55f")
+		)
+		(pin "ULN_ISO_02" input
+			(at 344.17 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b2f47fc7-e2fa-401a-b961-db9d1d9969ff")
 		)
 		(instances
 			(project "RS232-Relay"
 				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f"
-					(page "4")
+					(page "16")
 				)
 			)
 		)
@@ -12326,16 +12480,6 @@
 			)
 			(uuid "d6018eef-d6ae-48ca-bbc4-97835e1f26aa")
 		)
-		(pin "ULN_ISOLATOR" input
-			(at 518.16 100.33 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "a08df5b4-6f5e-4240-bece-e3038888b050")
-		)
 		(pin "ULN_RELAY" input
 			(at 557.53 100.33 0)
 			(effects
@@ -12345,16 +12489,6 @@
 				(justify right)
 			)
 			(uuid "2fc1404f-77c2-448a-9893-3ecc4a1414a1")
-		)
-		(pin "ESP32_IN" input
-			(at 518.16 92.71 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "fcc611b4-93bc-40b9-829a-53a8e66a1eda")
 		)
 		(instances
 			(project "RS232-Relay"
@@ -12404,16 +12538,6 @@
 			)
 			(uuid "ec867f09-8893-4d5f-88c7-6d1e082418d3")
 		)
-		(pin "ULN_ISOLATOR" input
-			(at 369.57 59.69 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "4d6063a1-f55d-48e1-8dda-1e14e537907c")
-		)
 		(pin "ULN_RELAY" input
 			(at 408.94 59.69 0)
 			(effects
@@ -12423,16 +12547,6 @@
 				(justify right)
 			)
 			(uuid "28446109-0cba-4392-9c4f-bc35007a4d96")
-		)
-		(pin "ESP32_IN" input
-			(at 369.57 52.07 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "55ba5bd2-43b7-4346-8974-2ffea6ad2774")
 		)
 		(instances
 			(project "RS232-Relay"
@@ -12482,16 +12596,6 @@
 			)
 			(uuid "218ae551-9500-4555-94bc-6e0e0cc810ca")
 		)
-		(pin "ULN_ISOLATOR" input
-			(at 444.5 39.37 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "005c1557-1442-4fb6-918e-17dd6739cb6f")
-		)
 		(pin "ULN_RELAY" input
 			(at 483.87 39.37 0)
 			(effects
@@ -12502,20 +12606,128 @@
 			)
 			(uuid "0eba8321-7bd8-4019-9179-e70d39d2219b")
 		)
-		(pin "ESP32_IN" input
-			(at 444.5 31.75 180)
+		(instances
+			(project "RS232-Relay"
+				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 325.12 52.07)
+		(size 19.05 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b15fb11d-cdc1-4c3a-bdbe-85c58770c5a7")
+		(property "Sheetname" "Isolator1"
+			(at 325.12 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 325.12 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ULN_ISO_01" input
+			(at 344.17 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8fe490fd-9c16-4c4e-bfde-31d2b64a52ec")
+		)
+		(pin "RELAY_IN_02" input
+			(at 325.12 60.96 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fa1371d3-df85-462c-adce-9c6cc1e107b1")
+			(uuid "a01c329b-053c-4730-8686-8d8a56a27ce6")
+		)
+		(pin "RELAY_IN_01" input
+			(at 325.12 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "73ffc789-36fb-4993-bcd0-7e70e7d572b3")
+		)
+		(pin "RELAY_IN_03" input
+			(at 325.12 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1146505d-3d42-4af7-a6dc-3696117393ce")
+		)
+		(pin "RELAY_IN_04" input
+			(at 325.12 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "624577a6-a370-41dc-b9bb-7826641e2c1c")
+		)
+		(pin "ULN_ISO_04" input
+			(at 344.17 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "93145395-b899-4a94-bf99-917c5c88db11")
+		)
+		(pin "ULN_ISO_03" input
+			(at 344.17 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d4d70c72-8407-4877-b80f-a9eb06b5e82e")
+		)
+		(pin "ULN_ISO_02" input
+			(at 344.17 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fdb9f62b-ea84-4320-919e-f6ce4f8b982b")
 		)
 		(instances
 			(project "RS232-Relay"
 				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f"
-					(page "5")
+					(page "15")
 				)
 			)
 		)
@@ -12560,16 +12772,6 @@
 			)
 			(uuid "81e27cf0-3d37-4d68-8936-94bed715457c")
 		)
-		(pin "ULN_ISOLATOR" input
-			(at 518.16 59.69 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "d7157df5-aace-4351-973f-5728c6b9e5c1")
-		)
 		(pin "ULN_RELAY" input
 			(at 557.53 59.69 0)
 			(effects
@@ -12579,16 +12781,6 @@
 				(justify right)
 			)
 			(uuid "f48d529a-dfa6-4a54-a217-b8c173e60fa4")
-		)
-		(pin "ESP32_IN" input
-			(at 518.16 52.07 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "ed668655-52cf-44aa-a94b-7b478c420d89")
 		)
 		(instances
 			(project "RS232-Relay"
@@ -12638,16 +12830,6 @@
 			)
 			(uuid "077219db-e334-492b-8519-b32bedc745d2")
 		)
-		(pin "ULN_ISOLATOR" input
-			(at 518.16 39.37 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "1030c77a-906f-440c-8836-f258b7f14e66")
-		)
 		(pin "ULN_RELAY" input
 			(at 557.53 39.37 0)
 			(effects
@@ -12657,16 +12839,6 @@
 				(justify right)
 			)
 			(uuid "1a8ea3f0-8f3a-480f-89d9-d63a8246ebe0")
-		)
-		(pin "ESP32_IN" input
-			(at 518.16 31.75 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "bbaaab17-4bb0-4068-ac1d-cbab05a09594")
 		)
 		(instances
 			(project "RS232-Relay"
@@ -12716,16 +12888,6 @@
 			)
 			(uuid "b6c8392c-8314-40d5-b909-b99f1aef9e8d")
 		)
-		(pin "ULN_ISOLATOR" input
-			(at 369.57 80.01 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "d8f6f885-b22b-4f05-b6f2-d89f4840bb0b")
-		)
 		(pin "ULN_RELAY" input
 			(at 408.94 80.01 0)
 			(effects
@@ -12735,16 +12897,6 @@
 				(justify right)
 			)
 			(uuid "f9187b3a-b1b0-4c4e-8c78-92e1d79d201a")
-		)
-		(pin "ESP32_IN" input
-			(at 369.57 72.39 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "2566e13d-a98b-42fe-b4b8-d02d3bf4d56d")
 		)
 		(instances
 			(project "RS232-Relay"
@@ -12794,16 +12946,6 @@
 			)
 			(uuid "2c8f2553-cfd4-4b7d-9051-160221322621")
 		)
-		(pin "ULN_ISOLATOR" input
-			(at 518.16 80.01 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "90fddd21-3aac-405c-8a8c-356ecc5b544e")
-		)
 		(pin "ULN_RELAY" input
 			(at 557.53 80.01 0)
 			(effects
@@ -12813,16 +12955,6 @@
 				(justify right)
 			)
 			(uuid "6e64354c-a986-4811-8a8c-6a13310747af")
-		)
-		(pin "ESP32_IN" input
-			(at 518.16 72.39 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f3b402cc-3b3d-4a44-9c29-5e282ac9d2c5")
 		)
 		(instances
 			(project "RS232-Relay"

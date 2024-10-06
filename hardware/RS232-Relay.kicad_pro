@@ -698,6 +698,18 @@
     [
       "3ecf393a-471d-4488-91e3-1f5ca05ecdcb",
       "Relay-NO-ISO11"
+    ],
+    [
+      "10bb8a44-3efe-4133-bbaa-537822590ec9",
+      "Isolator"
+    ],
+    [
+      "b15fb11d-cdc1-4c3a-bdbe-85c58770c5a7",
+      "Isolator1"
+    ],
+    [
+      "68cea88d-0005-4563-941e-da17b3d0efb0",
+      "Isolator2"
     ]
   ],
   "text_variables": {}
