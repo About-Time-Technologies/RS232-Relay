@@ -560,17 +560,6 @@
 		)
 		(uuid "43be66a4-f7b2-41ee-8d45-7588574d72c9")
 	)
-	(label "RELAY_OUT_01"
-		(at 151.13 38.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5a2ddd60-a3a0-497e-8add-219168a8a350")
-	)
 	(label "RELAY_OUT_02"
 		(at 213.36 77.47 180)
 		(fields_autoplaced yes)
@@ -650,19 +639,6 @@
 		)
 		(uuid "021c45c0-71b7-4540-b48b-92b44562f655")
 	)
-	(hierarchical_label "RELAY_IN_01"
-		(shape input)
-		(at 111.76 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "67ea6af8-fce2-44d9-b68e-4b076f77ea57")
-	)
 	(hierarchical_label "RELAY_IN_02"
 		(shape input)
 		(at 111.76 78.74 180)
@@ -717,7 +693,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Header:PhoenixContact_MSTBA_2,5_8-G-5,08_1x08_P5.08mm_Horizontal"
+		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_8-G-5,08_1x08_P5.08mm_Horizontal"
 			(at 218.44 80.01 0)
 			(effects
 				(font
@@ -1047,70 +1023,6 @@
 				)
 				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f/f5401bb4-9575-46b7-b322-a153ebcf6229"
 					(page "16")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 111.76 35.56)
-		(size 39.37 13.97)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "f12f86a4-1d04-4329-8ad3-ff7853ea8b11")
-		(property "Sheetname" "Relay-NO-ISO"
-			(at 111.76 34.8484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Relay-NO-ISO.kicad_sch"
-			(at 111.76 50.1146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "OUT" input
-			(at 151.13 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "bb9c305a-910a-4657-be99-ced6b60dbaba")
-		)
-		(pin "IN" input
-			(at 111.76 38.1 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8aacf062-ca4b-41c6-984a-5e657a557e4b")
-		)
-		(instances
-			(project "RS232-Relay"
-				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f/6243990a-47f3-4383-9005-5094cba86ad2"
-					(page "5")
-				)
-				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f/4cc60208-aa63-44fd-9447-92e9d40fbb60"
-					(page "6")
-				)
-				(path "/6e416d74-c18a-4d9a-a47c-4314aa8f470f/f5401bb4-9575-46b7-b322-a153ebcf6229"
-					(page "7")
 				)
 			)
 		)
