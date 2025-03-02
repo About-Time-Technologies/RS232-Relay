@@ -133,43 +133,6 @@ static bool update_relay_gpio() {
     return true;
 }
 
-static bool set_relay(uint8_t id, bool state) {
-    // Validate relayID for our system
-    if (id > relay_gpio_len) {
-        ESP_LOGW(UART_TAG, "Max relay ID is %i, relay ID provided was %i", relay_gpio_len, id);
-        return false;
-    }
-
-    if (id == 0) {
-        for (uint8_t i = 1; i < relay_gpio_len + 1; i++) {
-            set_relay(i, state);
-        }
-        return true;
-    }
-    
-    ESP_LOGI(UART_TAG, "Setting relay %i to %s", id, state == 1 ? "ON" : "OFF");
-    
-    uint16_t old_relay_state = relay_state;
-    if (state) {
-        relay_state = relay_state | (1 << (id - 1));
-    } else {
-        relay_state = relay_state & ~(1 << (id - 1));
-    }
-
-    ESP_LOGD(UART_TAG, "Current relay state: %i", relay_state);
-
-    if (relay_state == old_relay_state) return true;
-    // We only need to save the new state if the state has actually changed!
-
-    // Save relay state to NVS
-    nvs_write_state();
-
-    // Update physical relay state
-    update_relay_gpio();
-
-    return true;
-}
-
 static bool query_relay(uint8_t id) {
     // Validate relayID for our system
     if (id > relay_gpio_len) {
@@ -207,6 +170,45 @@ static bool query_relay(uint8_t id) {
     
     uart_write_bytes(UART_NUM, (const char *) data, 5); // We don't want to write the null termination byte to UART
     
+    return true;
+}
+
+static bool set_relay(uint8_t id, bool state) {
+    // Validate relayID for our system
+    if (id > relay_gpio_len) {
+        ESP_LOGW(UART_TAG, "Max relay ID is %i, relay ID provided was %i", relay_gpio_len, id);
+        return false;
+    }
+
+    if (id == 0) {
+        for (uint8_t i = 1; i < relay_gpio_len + 1; i++) {
+            set_relay(i, state);
+        }
+        return true;
+    }
+    
+    ESP_LOGI(UART_TAG, "Setting relay %i to %s", id, state == 1 ? "ON" : "OFF");
+    
+    uint16_t old_relay_state = relay_state;
+    if (state) {
+        relay_state = relay_state | (1 << (id - 1));
+    } else {
+        relay_state = relay_state & ~(1 << (id - 1));
+    }
+
+    ESP_LOGD(UART_TAG, "Current relay state: %i", relay_state);
+
+    if (relay_state == old_relay_state) return true;
+    // We only need to save the new state if the state has actually changed!
+
+    // Save relay state to NVS
+    nvs_write_state();
+
+    // Update physical relay state
+    update_relay_gpio();
+    
+    query_relay(id);
+
     return true;
 }
 
